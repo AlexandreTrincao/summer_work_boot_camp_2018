@@ -1,0 +1,105 @@
+Questions:
+
+1)  $ ssh username@10.0.1.51
+
+2)  $ ssh-keygen
+    $ ssh-copy-id username@10.0.1.51
+    $ ssh username@10.0.1.51
+
+3)  $ sudo password user_name
+
+4)  $ sudo -i
+
+5)  # su user_name 
+     or
+    # exit
+
+6)  $ sudo ...
+
+7)  $ sudo adduser user_name
+
+8)  $ su new_user_name
+
+9)  $ pwd
+
+10) $ cd
+
+11) $ cd ..
+
+12) $ ls
+
+13) $ find . -type f | wc -l
+
+14) $ ls -sh
+      or
+    $ tree -h
+
+15) $ ls -sh | sort
+      or
+    $ tree -h | sort
+
+16) $ ls -t
+
+17) $ find . -name "file_name"
+
+18) $ grep -r word *
+
+19) $ cat file_name
+
+20) $ mv file_name /users
+
+21) $ mv folder_name public/user
+
+22) $ mv folder_name new_folder_name
+
+23) $ man ls
+
+24) $ cat /etc/*-release
+
+25) $ df
+
+26) $ df -h
+
+27) $ ls -l
+
+28) $ sudo chown alexandre /user/file_name
+
+29) $ sudo chgrp group_name /user/file_name
+
+30) $ chmod (Octal or Symbolie notation) file_name
+
+31) $ ln -s folder link_folder
+
+32) $ mkdir folder_name
+
+33) $ touch new_file
+
+34) $ vi file_name
+
+35) $ rm file_name
+
+36) $ rm folder_name
+
+37) $ rm -r folder_name
+
+38) $ find . -type f -size +30M
+
+39) $ sudo apt-get update
+    $ sudo apt-get upgrade
+
+40) $ sudo apt-get install jq
+
+41) $ tar -cf file_name.tar file_folder_name
+
+42) $ tar -xf file_name.tar
+
+43) $ zip -r compressed_file_name.zip file_name
+
+44) $ unzip file_name.zip -d destination_file
+
+45) $ scp file username@10.0.1.51:/Downloads
+
+46) $ scp username@10.0.1.100:/Downloads username@10.0.1.51:/Downloads
+
+
+Quizz done by Alexandre Trincão 

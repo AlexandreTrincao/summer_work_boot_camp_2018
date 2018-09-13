@@ -1,0 +1,33 @@
+Instructions
+
+(Each document has an id)
+
+Create/Recreate the databade:
+
+	psql -f documents.sql
+
+Run the aplication:
+
+	npm start
+
+Get all documents:
+
+	http://localhost:3000/api/documents
+
+Get single document:
+
+	http://localhost:3000/api/documents/id
+
+Create a new document:
+
+	$ curl --data "title=new_title&text=new_text" http://127.0.0.1:3000/api/documents
+
+Update a document:
+
+	$ curl -X PUT --data "title=updated_title&text=updated_text" http://127.0.0.1:3000/api/documents/id
+
+Delete a document:
+
+	$ curl -X DELETE http://127.0.0.1:3000/api/documents/id
+
+Instructions created by Alexandre Trincão	 
